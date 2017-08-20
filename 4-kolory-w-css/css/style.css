@@ -18,4 +18,9 @@ body{
 #kolory-heksadecymalne-skrocony{
     background-color:#267;  
 }
-
+#kolory-rgb{
+    background-color: rgba(22, 22, 230, 0.71);
+}
+#kolory-rgba{
+    background-color: rgba(30,22,91,0.5);
+}
