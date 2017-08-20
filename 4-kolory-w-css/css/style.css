@@ -1,0 +1,21 @@
+body{
+    background-color: lightpink;
+}
+.color-box
+{
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+#kolory-predefiniowane{
+    background-color: red;
+   
+}
+#kolory-heksadecymalne{
+    background-color:#ff3399;
+        
+}
+#kolory-heksadecymalne-skrocony{
+    background-color:#267;  
+}
+
