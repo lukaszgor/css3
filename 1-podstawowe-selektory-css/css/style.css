@@ -1,0 +1,38 @@
+body
+/*selektor znacznika*/
+p{
+    color: green;
+}
+#yerba{
+    color: pink;
+}
+.mate{
+    color:red;
+}
+div,a,span{
+    color: blue;
+}
+/*selektor bezposredniego elementu potomnego*/
+div#element-potomny> p{
+    color: darksalmon;
+}
+/*selektory elementow potomnych*/
+div#element-spacja p{
+    color: darkgreen;
+}
+/*selektor bezposredniego rodzenstwa*/
+div#rodzenstwo > div + div{
+    color:sienna;
+}
+/*selektor calego rodzenstwa*/
+div#calerodzenstwo > div ~ div{
+    color:magenta;
+}
+/*selektory wykluczone*/
+ul >li.list--item:not(.wykluczone){
+    color:aqua;
+}
+/*selektor kolejnego elementu potomnego*/
+ol>li:nth-child(3){
+    background-color: greenyellow;
+}
