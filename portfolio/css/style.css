@@ -100,4 +100,71 @@ section{
 {
     color: black;
 }
+#container{
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    background-color: white;
+}
+.bialy{
+    color: white;
+}
+.zielony{
+    color: green;
+}
+.czarny{
+    color: black;
+}
+#umiejetnosci1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+}
+#umiejetnosci2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#umiejetnosci2 p{
+    font-size: 15px;
+}
+
+#zhtml5{
+    background-image: url(icons/html5.png);
+    width: 75px;
+    height: 75px;
+  
+    
+    
+    
+}
+#zccs3{
+    background-image: url(icons/css3.png);
+    width: 75px;
+    height: 75px;
+  
+}
+#zjs{
+   background-image: url(icons/js.png);
+    width: 75px;
+    height: 75px; 
+    
+}
+#zjq{
+    background-image: url(icons/jquery.png);
+    width: 75px;
+    height: 75px;
+  
+    
+}
+figure{
+    display: inline-block;
+   
+}
+.bok{
+   
+    text-align: center;
+}
+
 
