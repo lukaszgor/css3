@@ -1,7 +1,10 @@
 html{
     background-color:#291f1a;
     font-family: 'Lato', sans-serif;
+    width: 100%;
+   
 }
+
 #obraz1{
     background-image: url(img/header-background.jpg);
    
@@ -16,26 +19,34 @@ html{
     text-align: center;
     font-size: 80px;
     color: white;
+    position: relative;
+    top: 50px;
     
 }
+
 #fed{
     text-align: center;
     font-size: 40px;
     color: white;
+     position: relative;
+    top: 30px;
 }
 #nawigacja a{
    
     text-decoration: none;
     font-size: 20px;
-    color: white;
+    color: green;
     display: inline-block;
     
 }
 #nawigacja{
-    color: white;
-    position: fixed;
+    
+    position:fixed;
   top: 0;
   width: 100%;
+    background-color: white;
+    color: green;
+    z-index: 100;
     
     
     
@@ -55,7 +66,8 @@ section{
     width: auto;
     height: 400px;
     margin: 0px;
-    padding: 20px;
+    padding: 0px;
+    width: 100%;
 }
 #zdjecie{
     background-image: url(img/jan-nowak.jpg);
@@ -77,8 +89,15 @@ section{
 }
 #lorem{
     text-align: justify;
+    
 }
 #omnie #p1 {
     font-size: 30px;
+    color: green;
+    
 }
-   
+#p1::first-letter
+{
+    color: black;
+}
+
