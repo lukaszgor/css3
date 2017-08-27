@@ -1,5 +1,5 @@
 html{
-    background-color:#291f1a;
+    background-color:#d0c8c4 ;
     font-family: 'Lato', sans-serif;
     width: 100%;
    
@@ -60,7 +60,7 @@ nav li{
     
 }
 section{
-    background-color: white;
+    background-color: #cae4eb;
     
     background-size: 100%;
     width: auto;
@@ -171,5 +171,139 @@ figure{
     font-size: 30px;
     padding-top: 50px;
     padding-bottom: 20px;
+}
+
+.zdjecie1{
+    background-image: url(img/portfolio1.jpg);
+    width: 400px;
+    height: 400px;
+           background-size: cover;   
+    text-align: center;
+    display: inline-block;
+    
+
+}
+.zdjecie2{
+    background-image: url(img/portfolio2.jpg);
+    width: 400px;
+    height: 400px;
+      background-size: cover;
+     text-align: center;
+    display: inline-block;
+
+}
+.zdjecie3{
+    background-image: url(img/portfolio4.jpg);
+    width: 800px;
+    height: 400px;
+      background-size: cover;
+     text-align: center;
+   clear: both;
+    text-align: center;
+    position: relative;
+    left: 350px;
+    
+    
+    
+    
+}
+.trzyzdjecia{
+    
+    text-align: center;
+    padding-bottom: 20px;
+}
+.zdjecie1:hover{
+    
+    opacity: 0.5;
+    
+}
+.zdjecie2:hover{
+    
+    opacity: 0.5;
+    
+}
+.zdjecie3:hover{
+    
+    opacity: 0.5;
+    
+    
+}
+footer{
+     height:400px;
+    width: 100%;
+    
+   
+    background-color: #213b50 ;
+    
+}
+
+
+
+
+
+
+.bialy1{
+    font-size: 30px;
+    color: white;
+   
+   
+    
+}
+.zielony2{
+   font-size: 30px; 
+    color: green;
+    
+}
+#glowny3{
+    padding-top: 60px;
+    margin-left: 60px;
+}
+
+.adresy{
+    color: white;
+    margin-left: 60px;
+    padding-top: 60px;
+}
+.adresy a{
+    text-decoration-color: green;
+    color: green;
+}
+.googlefonty{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+ form{
+    position: relative;
+     bottom: 300px;
+     left: 900px;
+}
+input{
+    background-color:#031421 ;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+textarea{
+     background-color:#031421 ;
+    color: white;
+     border: none;
+     outline: none
+    
+}
+#przycisk{
+    background-color: green;
+    color: white;
+    width:80px;
+    height: 40px;
+    position: relative;
+    left:280px;
+    font-size: 20px;
+}
+#ostatni{
+    margin-top: 20px;
+     background-color:#031421 ;
+    width: 100%;
+    height: 50px;
 }
 
