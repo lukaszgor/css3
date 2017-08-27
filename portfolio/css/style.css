@@ -305,6 +305,7 @@ figure {
     opacity:0;
    
     display: block;
+    width: 100%;
 }
 
 .trzyzdjecia {
@@ -435,6 +436,4 @@ nav a:hover {
     width: 49%;
     display: inline-block;
 }
-.glowa{
-    padding: 10px;
-}
+
