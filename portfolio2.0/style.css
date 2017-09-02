@@ -51,15 +51,16 @@ section img{
     padding: 60px;
     width:300px;
     height: 300px;
+    
    
 }
 #omnie{
     display: inline-block;
-    width: 600px;
+    width:48%;
     height: 200px;
     margin-top: 0px;
-    
     padding-bottom: 60px;
+    
    
 }
 .omnie1{
@@ -176,6 +177,7 @@ form input{
     width: 350px;
     height: 25px;
     color: white;
+    margin-left: 10px;
 }
 form textarea{
     background-color:#03457b;
@@ -183,6 +185,7 @@ form textarea{
     border:none;
     width: 350px;
     height: 45px;
+    margin-left: 10px;
 }
 #przycisk{
     background-color: green;
@@ -262,11 +265,11 @@ header li a:hover{
 }
 
 .zdjecie2:hover span.text {
-    opacity: 1;
+    opacity: 2;
 }
 
 .zdjecie2:hover .overlay {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 
 .zdjecie3 {
@@ -297,16 +300,16 @@ header li a:hover{
     
 }
 .zdjecie3:hover span.text {
-    opacity: 1;
+    opacity: 2;
 }
 
 .zdjecie3:hover .overlay {
-    opacity: 0.3;
+    opacity: 0.5;
 }
 .zdjecie3 .overlay{
     position: absolute;
     margin: 0px auto;
-    background-color: black;
+    background-color: darkblue;
     opacity:0;
     display: block;
     width: 100%;
@@ -329,20 +332,15 @@ header li a:hover{
 #drop,label{
     display: none;
 }
-
-
 #ikonki figure{
    
     text-align: center;
     display: inline-block;
-    padding: 5px;
-
-    
+    padding: 5px;  
 }
 #ikonki{
     text-align: center;
     margin: auto;
     width: 100%;
     padding: 0;
-    
 }

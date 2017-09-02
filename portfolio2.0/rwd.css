@@ -83,6 +83,15 @@
     .trzyzdjecia>div{
         width: 100%;
     }
+    #imie,#nazwisko,#fed{
+        font-size: 40px;
+    }
+    form{
+        margin-top: 15px;
+    }
+    #name{
+        margin: 0;
+    }
 } 
 
 @media all and (max-width:480px) {
