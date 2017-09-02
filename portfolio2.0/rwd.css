@@ -80,8 +80,9 @@
     nav{
         width: 90%;
     }
-    
-    
+    .trzyzdjecia>div{
+        width: 100%;
+    }
 } 
 
 @media all and (max-width:480px) {
@@ -100,5 +101,8 @@
      html{
         padding: 0 40px 50px;
     }
-   
+    .trzyzdjecia>div{
+        width: 100%;
+    }
+    
 } 
